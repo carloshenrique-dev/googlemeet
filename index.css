@@ -1,0 +1,148 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main{    
+    background: #202124;     
+    height: 89.5vh;        
+}
+
+footer {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;        
+}
+
+#footer-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    grid-gap: 660px;
+    align-items: center;    
+}
+
+.footer-column-initial {
+    margin-left: 20px;
+}
+
+.footer-column-middle {
+    position: relative;
+    left: 40px;
+}
+
+.footer-column-last {
+    position: relative;
+    bottom: 5px;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+.icon-group {
+    background-image: url(./image/people-24px.svg);
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.icon-chat {
+    background-image: url(./image/chat-24px.svg);
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.icon-clock {
+    background-image: url(./image/av_timer-24px.svg);
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.icon-microphone {
+    background-image: url(./image/mic-black-36dp.svg);
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+}
+
+.icon-telephone {
+    background-image: url(./image/call_end-black-36dp.svg);
+    filter: invert(21%) sepia(93%) saturate(2688%) hue-rotate(352deg) brightness(93%) contrast(83%);
+}
+
+.icon-camera {
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    background-image: url(./image/videocam-black-36dp.svg);
+}
+
+.icon-arrow-up {
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    background-image: url(./image/keyboard_arrow_up-black-36dp.svg);
+    vertical-align: middle;       
+}
+
+.icon-presentation {
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    background-image: url(./image/present_to_all-black-36dp.svg);
+    margin-left: 40px;
+}
+
+.icon-more {
+    filter: invert(38%) sepia(2%) saturate(1027%) hue-rotate(173deg) brightness(98%) contrast(92%);
+    background-image: url(./image/more_vert-black-36dp.svg);
+    margin-right: 10px;
+    position: absolute;
+    right: 2px;
+    top: 15px;
+}
+
+.icons-right-main {
+    float: right;
+    background-color: #ffffff;
+    border-radius: 0px 0px 0px 6px;
+}
+
+.title {   
+    color: #3c4043;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.title-1 { 
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 1rem;
+    color: #202124;
+    overflow: hidden;
+}
+
+.topicon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
